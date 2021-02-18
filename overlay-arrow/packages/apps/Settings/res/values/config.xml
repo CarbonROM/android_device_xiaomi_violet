@@ -20,8 +20,5 @@
          3 = right side
     -->
     <integer name="config_fingerprintSensorLocation">0</integer>
-
-    <!-- Smart Charging -->
-    <bool name="config_supportSmartCharging">true</bool>
     
 </resources>
