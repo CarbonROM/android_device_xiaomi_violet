@@ -1,6 +1,6 @@
 [
   {
-    "repository": "android_kernel_xiaomi_violet",
+    "repository": "CarbonROM/android_kernel_xiaomi_violet",
     "target_path": "kernel/xiaomi/violet"
   }
 ]
