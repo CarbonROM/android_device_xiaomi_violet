@@ -20,7 +20,7 @@ $(call inherit-product, vendor/xiaomi/violet/violet-vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
+    $(LOCAL_PATH)/overlay \CapabilityConfigStore
     $(LOCAL_PATH)/overlay-carbon
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
@@ -164,6 +164,7 @@ PRODUCT_PACKAGES += \
 
 # Config Store
 PRODUCT_PACKAGES += \
+    vendor.qti.hardware.capabilityconfigstore@1.0 \
     disable_configstore
 
 # Display/Graphics
