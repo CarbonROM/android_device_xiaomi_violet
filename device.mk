@@ -164,6 +164,7 @@ PRODUCT_PACKAGES += \
 
 # Config Store
 PRODUCT_PACKAGES += \
+    vendor.qti.hardware.capabilityconfigstore@1.0 \
     disable_configstore
 
 # Display/Graphics
